@@ -1,0 +1,226 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F6B179; 
+ text-align: center;
+}
+
+main{
+  text-align: left;
+}
+
+header {
+  font-size: 1.2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #5F4D6A;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-family: 'Playfair Display', serif;
+  color: #264653;
+  margin-left: .75em;
+  margin-top: .5em;
+}
+
+h3 {
+  margin-left: .35em;
+  font-size: 1.75em;
+  font-family: 'Andada Pro', serif;
+}
+
+p {
+  color: #264653;
+  padding: 0.5em;
+  font-size: 1.25em;
+}
+
+a {
+  color: #279185;
+  text-decoration: underline;
+}
+
+/* STYLE INTRO TEXT */
+#slogan {
+  font-size: 4em;
+  padding: 0.2em;
+  color: #279185;
+  text-shadow: 8px 7px 5px #E76F51;
+  font-family: 'Andada Pro', serif;
+}
+
+#intro {
+  font-size: 1.5em;
+  padding: 1em;
+  font-family: 'Playfair Display', serif;
+  color: #264653;
+  margin-bottom: .25em;
+  text-align: center;
+}
+
+/* STYLE ABOUT PAGE */
+.about {
+  text-align: left;
+  text-shadow: 4px 4px 2px #E76F51;
+}
+
+.missions {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.organizations {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1em;
+  text-align: left;
+}
+
+/* STYLE SUPPORT PAGE */
+#support {
+  font-size: 2.5em;
+  text-shadow: 5px 5px 3px #E76F51;
+}
+
+.donate {
+  display: flex;
+  justify-content: space-around;
+}
+
+.protest {
+  display: flex;
+  justify-content: space-around;
+}
+
+.volunteer {
+  display: flex;
+  justify-content: space-around;
+}
+/* STYLE IMAGES */
+img{
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 15%;
+  margin: 10px;
+  text-align: center;
+}
+
+.central{
+  max-width: 100%;
+  max-height: 50%;
+  border-radius: 0%;
+  margin: 0px;
+}
+
+#img {
+  text-align: center;
+}
+
+.logos {
+  max-width: 20%;
+  max-height: 20%;
+  text-align: center;
+}
+
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color:#264653;
+  overflow: hidden;
+  padding: .75em;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color:#F6B179;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 1.5em;
+  padding: 1.75em;
+}
+
+li a:hover{
+  background-color:#2A9D8F;
+}
+
+/* STYLE LIST */
+#list {
+  background-color: #F6B179; 
+  color: #264653;
+  text-align: left;
+  overflow: visible;
+}
+
+/* STYLE TABLE */
+table {
+  table-layout: fixed;
+  text-align: left;
+}
+
+td {
+  width: 50%;
+}
+
+#PETAAWI {
+  table-layout: auto;
+  text-align: center;
+}
+
+/* STYLE FACT GENERATOR */
+.getFact {
+  background-color: #F5E3B8;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Andada Pro', serif;
+
+  margin-top: 30px;
+  margin-left: 14%;
+  margin-right: 14%;
+
+  font-size: 1em;
+  text-align: center;
+  color: #279185;
+}
+
+#fact {
+  border-style: none;
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2em;
+  color: #279185;
+}
+
+/* STYLE BUTTON */
+button {
+  margin-top: 4px;
+  padding: 17px 22px;
+  text-align: center;
+  background-color: #279185;
+  color: #F5E3B8;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #264653;
+  cursor: pointer;
+}
